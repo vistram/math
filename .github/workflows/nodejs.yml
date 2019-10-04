@@ -27,3 +27,6 @@ jobs:
         npm test -- --watch=false
       env:
         CI: true
+    - name: GitHub Pages Deploy
+      uses: maxheld83/ghpages@v0.2.1
+
